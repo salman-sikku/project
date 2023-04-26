@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600;700&family=Josefin+Sans:wght@100&family=Lato:ital,wght@0,400;1,300&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,500&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+
+/* header start */
+
+header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    font-family: 'Poppins', sans-serif;
+}
+
+header .nav-icons {
+    display: flex;
+    gap: 10px;
+}
+
+header .nav-icons logo{
+    width: 100%;
+}
+
+/* header end */
+
+/* sidebar start */
+.side-bar {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 70px;
+    height: 100vh;
+    background-color: #362D7C;
+}
+.side-bar-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+    padding: 8px 3px;
+    border-bottom: .5px solid white;
+}
+.side-bar-btn.active{
+    background-color: rgb(187, 145, 6);
+    color: #362D7C;
+}
+/* sidebar end */
+
+/* main-Content */
+.main-content {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: 1px solid red;
+}
+
+.content-div {
+    margin: 20px;
+    background-color: #fff;
+    border: 1px solid green;
+}
+
+.content-top-div {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rebeccapurple;
+}
+
+.content-heading h2{
+    color: #362D7C;
+}
+
+.content-heading p{
+    color:  #969494;
+    margin-top: -4px;
+}
+
+.content-heading p span{
+    color: #362D7C;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+table th {
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid #ccc;
+    color: #362D7C;
+}
+
+table th p{
+    padding: 4px;
+    text-align: left;
+    font-size: 13px;
+    vertical-align: middle;
+    text-transform:capitalize;
+ 
+}
+
+table th .down-text-div{
+    display: flex;
+    align-items: center;
+}
+
+table th .down-text-div p{
+    font-weight: 100;
+    font-size: 13px;
+    margin-left:5px ;
+}
+
+.mring-top{
+    margin-top: 16px;
+}
+
+
+
+.filetr-text{
+    color: #333;
+}
+
+table th .down-text-div i{
+    margin-left: 5px;
+    color: #E26A2D;
+}
+
+
+table th input{
+   width: 80%;  
+   margin-top: 22px;
+   margin-left: -16px;
+   border: 1px solid #ccc;
+   padding: 4px 8px;
+   border-radius: 3px;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* main-Content */
+
+/* body - color => #f7f7f7
+sidevar - color bg => #362D7C
+header - color bg => #fff
+conent-header-color - #5C5792
+text-p- #EFEFEF
+table hylight-color => #F7F8FA
+redio-color => #e9a37d
+aside-hover-color- #FBB400
+table - text-color #D9E0E3
+body-btn-color => #E26A2D
+text-span => #D4D4D4 */
